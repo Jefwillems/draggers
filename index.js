@@ -1,17 +1,17 @@
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
-    define(['dependency'], factory);
+    define([], factory);
   } else if (typeof module === 'object' && module.exports) {
     // Node. Does not work with strict CommonJS, but
     // only CommonJS-like environments that support module.exports,
     // like Node.
-    module.exports = factory(require('dependency'));
+    module.exports = factory();
   } else {
     // Browser globals (root is window)
-    root.dragger = factory(root.dependency);
+    root.dragger = factory();
   }
-})(this, function(dependency) {
+})(this, function() {
   // Use dependency in some fashion.
   return (function() {
     let emptyList = [];
