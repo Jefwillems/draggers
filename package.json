@@ -1,7 +1,11 @@
 {
-  "name": "dragger",
+  "name": "draggers",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jefwillems <jefwillems100@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Jefwillems/dragger.git",
+    "type": "git"
+  }
 }

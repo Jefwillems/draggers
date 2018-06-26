@@ -57,3 +57,5 @@ const dragger = (function() {
     };
   };
 })();
+
+module.exports = dragger;
