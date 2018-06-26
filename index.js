@@ -11,7 +11,6 @@ const dragger = (function() {
     setTimeout(() => (this.className = 'invisible'), 0);
   }
   function onDragEnd() {
-    // dragging = null;
     this.className = draggerClass;
   }
 
